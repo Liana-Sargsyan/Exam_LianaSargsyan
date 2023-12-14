@@ -17,3 +17,6 @@ class BasePage():
 
     def _click_to_element(self, webElement):
         webElement.click()
+
+    def _get_element_text(self, webElement):
+        return webElement.text

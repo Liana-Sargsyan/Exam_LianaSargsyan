@@ -7,7 +7,6 @@ class CookieClicker(BaseTestWithoutLogIn):
     def test_one_click_to_cookie(self):
         mainPageObj = MainPage(self.driver)
         mainPageObj.click_to_language_dropdown()
-        mainPageObj.click_to_cookie_button()
-        mainPageObj.get_cookie_count()
+        mainPageObj.click_to_cookie_button_in_a_loop()
 
         # assertion part is missing
